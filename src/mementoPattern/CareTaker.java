@@ -1,0 +1,23 @@
+package mementoPattern;
+
+/**
+ * 
+ * 管理者（CareTaker）类：管理备忘录
+ * 
+ * @author 程期浩
+ *
+ */
+
+public class CareTaker {
+
+	private Memento memento;
+
+    public Memento getMemento() {
+    	return memento;
+    }
+
+    public void setMemento(Memento memento) {
+    	this.memento = memento;
+    }
+    
+}
